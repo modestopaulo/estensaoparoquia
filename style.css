@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.7;
-    color: #1f2029;
-    background-color: #ececee;
-    overflow: hidden;
-    background-image: url('img/fundo.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 1%; /* Move a imagem 1% para baixo */
-    height: 100vh;
-    width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1f2029;
+  background-color: #ececee;
+  overflow: hidden;
+  background-image: url('img/fundo.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir todo o fundo proporcionalmente */
+  background-position: center top; /* Centraliza horizontalmente e ajusta para o topo */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-attachment: fixed; /* Faz a imagem permanecer fixa ao rolar a página */
+  height: 100vh;
+  width: 100%;
 }
 
 html, body {
